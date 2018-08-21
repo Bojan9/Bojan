@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Bojan veb strana</title>
+
+    <!--   link to UIkit css   -->
+    <link href="/UIkit/UIkit-css/uikit.min.css" rel="stylesheet">
+
+    <!--   link to main css   -->
+    <link href="/css/reset.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+
+    <!--   link to Font Awesome   -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+
+    <!--   link to Google Fonts   -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Coda+Caption:800|Francois+One|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lobster|Monoton|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Pacifico|Passion+One:400,700,900|Patua+One|Poiret+One|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Russo+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Homemade+Apple|Kristi|Sacramento" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--   Home - start   -->
+    <div class="home">
+
+        <div class="uk-position-relative">
+            <div uk-slideshow="animation: Push">
+
+                <div class="uk-position-relative uk-visible-toggle uk-light">
+
+                    <ul class="uk-slideshow-items">
+                        <li>
+                            <img src="http://via.placeholder.com/1920x1080" alt="" uk-cover>
+                            <div class="uk-position-center uk-position-small uk-text-center uk-light borderLarge">
+                                <h3 class="uk-margin-remove homeHeaderMedium">Hello! I am a singer</h3>
+                                <h1 class="uk-margin-remove homeHeaderLarge">MARIJA SPASOVSKA</h1><br><br>
+                                <p class="uk-margin-remove homeParagraphMedium">Music only makes me stronger. Music speaks to the heart in ways words cannot express.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://via.placeholder.com/1920x1080" alt="" uk-cover>
+                            <div class="uk-position-center uk-position-small uk-text-center uk-light borderLarge">
+                                <h3 class="uk-margin-remove homeHeaderMedium">Hello! I am a singer</h3>
+                                <h1 class="uk-margin-remove homeHeaderLarge">MARIJA SPASOVSKA</h1><br><br>
+                                <p class="uk-margin-remove homeParagraphMedium">Music only makes me stronger. Music speaks to the heart in ways words cannot express.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <img src="http://via.placeholder.com/1920x1080" alt="" uk-cover>
+                            <div class="uk-position-center uk-position-small uk-text-center uk-light borderLarge">
+                                <h3 class="uk-margin-remove homeHeaderMedium">Hello! I am a singer</h3>
+                                <h1 class="uk-margin-remove homeHeaderLarge">MARIJA SPASOVSKA</h1><br><br>
+                                <p class="uk-margin-remove homeParagraphMedium">Music only makes me stronger. Music speaks to the heart in ways words cannot express.</p>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+                    <div class="uk-position-bottom-center uk-position-small">
+                        <ul class="uk-dotnav">
+                            <li uk-slideshow-item="0"><a href="#">Item 1</a></li>
+                            <li uk-slideshow-item="1"><a href="#">Item 2</a></li>
+                            <li uk-slideshow-item="2"><a href="#">Item 3</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-position-top">
+            <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+                <nav class="uk-navbar-container" uk-navbar>
+                    <div class="uk-navbar-center">
+                        <ul class="uk-navbar-nav">
+                            <li class="uk-active"><a href="#">HOME</a></li>
+                            <li><a href="#">FEATURED</a></li>
+                            <li>
+                                <a href="#">ABOUT</a>
+                                <div class="uk-navbar-dropdown">
+                                    <ul class="uk-nav uk-navbar-dropdown-nav">
+                                        <li><a class="navBarAbout" href="#">Biography</a></li>
+                                        <li class="uk-nav-header navBarAbout">GALLERY &amp; AWARDS</li>
+                                        <li><a class="navBarAbout" href="#">Gallery</a></li>
+                                        <li><a class="navBarAbout" href="#">Awards</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li><a href="#">MUSIC</a></li>
+                            <li><a href="#">CONTACTS</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!--   Home - end   -->
+
+    <!--   Featured - start   -->
+    <div class="featured">
+        <br><br>
+        <div class="headerMedium">Featured
+            <div class="headerMediumLine"></div>
+        </div>
+
+        <iframe class="videoFeatured" src="https://www.youtube.com/embed/MEoROXfCtHo" width="1300" height="700" frameborder="0" allowfullscreen uk-responsive uk-video="automute: true"></iframe>
+    </div>
+    <!--   Featured - end   -->
+
+    <!--   Biography - start   -->
+    <div class="biography">
+        <div class="biographyImg">
+            <img src="/img/biography2.jpg" alt="Marija Spasovska" width="570" height="630">
+            <div class="imageBorder"></div>
+        </div>
+
+        <div class="biographyContainer">
+            <div class="headerSmall">Biography
+                <div class="headerSmallLine"></div>
+            </div>
+
+            <div class="biographyText">
+                    <div class="biographyTextLarge">Marija Spasovska born on 5 October 2005 in Skopje,Macedonia is Macedonian singer and actress.</div>
+
+                    <br><br><div class="biographyTextSmall">She sang her first song at only 4 years old "My doll" at the festival "Potocinja".
+                    From then she has performed more than 10 own songs at diffrent festivals and competitions and has won over twenty awards, comendations and diplomas from different music festivals and competitions at the domestic and international level.</div>
+
+                    <br><div class="biographyTextSmall">In 2017 she won a competition "Casting Talent Show" in Macedonia and got a role in the first Macedonian musical "My Secret" dedicated to Tose Proeski.</div>
+
+                    <br><div class="biographyTextSmall">Her first teenage song "Play with heart" was released on May 30, 2018.</div>
+            </div>
+
+            <div class="biographyTextFooter">M. Spasovska</div>
+
+        </div>
+
+    </div>
+    <!--   Biography - end   -->
+
+    <div class="gallery">
+        <div class="galleryContainer">
+            <div class="row">
+                <div class="column">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                </div>
+                <div class="column">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                </div>
+                <div class="column">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                </div>
+                <div class="column">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                    <img src="http://via.placeholder.com/325x265">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+<!--   link to JQuery   -->
+<script src="/js/lib/jquery-3.3.1.min.js"></script>
+
+<!--   link to main js   -->
+<script src="/js/main.js"></script>
+
+<!--   link to UIkit js   -->
+<script src="/UIkit/UIkit-js/uikit.min.js"></script>
+<script src="/UIkit/UIkit-js/uikit-icons.min.js"></script>
+
+</html>

@@ -1,0 +1,196 @@
+.home {
+  width: 1920px;
+  height: 1080px;
+  float: left; }
+
+.uk-position-top {
+  width: 1920px;
+  height: 80px;
+  float: left;
+  background-color: #4d4d4d; }
+
+.uk-position-relative {
+  width: 1920px;
+  height: 1080px;
+  float: left; }
+
+.uk-navbar-container:not(.uk-navbar-transparent) {
+  background-color: #333333; }
+
+.navBarButton {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600; }
+
+.uk-navbar-nav > li > a {
+  color: #f2f2f2;
+  font-family: 'Lato', sans-serif; }
+
+.uk-navbar-nav > li.uk-active > a {
+  color: #00cc99;
+  font-family: 'Lato', sans-serif; }
+
+.uk-navbar-dropdown-nav > li > a {
+  color: #333333;
+  font-family: 'Lato', sans-serif; }
+
+.uk-navbar-dropdown-nav .uk-nav-header {
+  color: #333333;
+  font-family: 'Lato', sans-serif; }
+
+.homeHeaderMedium {
+  color: white;
+  font-size: 50px;
+  font-family: 'Lato', sans-serif; }
+
+.homeHeaderLarge {
+  color: white;
+  font-size: 70px;
+  font-family: 'Lato', sans-serif; }
+
+.homeParagraphMedium {
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif; }
+
+.borderLarge {
+  padding: 40px;
+  border: 5px solid #00cc99; }
+
+.featured {
+  width: 1920px;
+  height: 970px;
+  float: left;
+  background-color: #333333; }
+
+.videoFeatured {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px; }
+
+.headerMedium {
+  width: 1300px;
+  height: 80px;
+  float: left;
+  margin-left: 310px;
+  text-align: center;
+  color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  letter-spacing: 3px; }
+
+.headerMediumLine {
+  width: 350px;
+  height: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -20px;
+  border-top: 5px solid #00cc99; }
+
+.biography {
+  width: 1920px;
+  height: 900px;
+  float: left;
+  background-image: url(/img/1.jpg);
+  min-height: 900px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.biographyImg {
+  width: 570px;
+  height: 630px;
+  float: left;
+  margin-left: 300px;
+  margin-top: 100px; }
+
+.imageBorder {
+  width: 570px;
+  height: 570px;
+  margin-left: -40px;
+  margin-top: -620px;
+  border: 5px solid #00cc99; }
+
+.biographyContainer {
+  width: 600px;
+  height: 500px;
+  float: right;
+  margin-right: 300px;
+  margin-top: 200px; }
+
+.headerSmall {
+  width: 280px;
+  height: 60px;
+  float: left;
+  text-align: center;
+  color: #f2f2f2;
+  font-family: 'Lato', sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  letter-spacing: 3px; }
+
+.headerSmallLine {
+  width: 280px;
+  height: 0px;
+  margin-top: -17px;
+  border-top: 3px solid #00cc99; }
+
+.biographyText {
+  width: 600px;
+  height: 300px;
+  float: left;
+  margin-top: 40px; }
+
+.biographyTextLarge {
+  color: white;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  word-spacing: 2px; }
+
+.biographyTextSmall {
+  color: white;
+  font-size: 17px;
+  font-family: 'Robotto', sans-serif;
+  font-weight: 400;
+  line-height: 1.3;
+  opacity: 0.8;
+  word-spacing: 2px; }
+
+.biographyTextFooter {
+  width: 550px;
+  height: 60px;
+  color: #00cc99;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 700;
+  font-size: 40px;
+  letter-spacing: 3px;
+  float: right;
+  margin-top: 40px;
+  margin-right: 50px;
+  text-align: right; }
+
+.gallery {
+  width: 1920px;
+  height: 1600px;
+  float: left;
+  background-color: wheat; }
+
+.galleryContainer {
+  width: 1300px;
+  height: 1400px;
+  float: left;
+  margin-top: 100px;
+  margin-left: 300px;
+  background-color: blue; }
+
+.row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.column {
+  flex: 25%;
+  max-width: 25%; }
