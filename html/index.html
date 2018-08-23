@@ -18,11 +18,16 @@
     <!--   link to Google Fonts   -->
     <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700,900|Coda+Caption:800|Francois+One|Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lobster|Monoton|Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Pacifico|Passion+One:400,700,900|Patua+One|Poiret+One|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Russo+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Homemade+Apple|Kristi|Sacramento" rel="stylesheet">
-
+<style>
+    .wrap{
+        width: 1024px;
+        margin: 0 auto;
+    }
+    </style>
 </head>
 
 <body>
-
+<div class="wrap">
     <!--   Home - start   -->
     <div class="home">
 
@@ -31,23 +36,7 @@
 
                 <div class="uk-position-relative uk-visible-toggle uk-light">
 
-                    <ul class="uk-slideshow-items">
-                        <li>
-                            <img src="http://via.placeholder.com/1920x1080" alt="" uk-cover>
-                            <div class="uk-position-center uk-position-small uk-text-center uk-light borderLarge">
-                                <h3 class="uk-margin-remove homeHeaderMedium">Hello! I am a singer</h3>
-                                <h1 class="uk-margin-remove homeHeaderLarge">MARIJA SPASOVSKA</h1><br><br>
-                                <p class="uk-margin-remove homeParagraphMedium">Music only makes me stronger. Music speaks to the heart in ways words cannot express.</p>
-                            </div>
-                        </li>
-                        <li>
-                            <img src="http://via.placeholder.com/1920x1080" alt="" uk-cover>
-                            <div class="uk-position-center uk-position-small uk-text-center uk-light borderLarge">
-                                <h3 class="uk-margin-remove homeHeaderMedium">Hello! I am a singer</h3>
-                                <h1 class="uk-margin-remove homeHeaderLarge">MARIJA SPASOVSKA</h1><br><br>
-                                <p class="uk-margin-remove homeParagraphMedium">Music only makes me stronger. Music speaks to the heart in ways words cannot express.</p>
-                            </div>
-                        </li>
+                    <ul class="uk-slideshow-items" id="swiper">
                         <li>
                             <img src="http://via.placeholder.com/1920x1080" alt="" uk-cover>
                             <div class="uk-position-center uk-position-small uk-text-center uk-light borderLarge">
@@ -143,38 +132,21 @@
 
     <div class="gallery">
         <div class="galleryContainer">
-            <div class="row">
-                <div class="column">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                </div>
-                <div class="column">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                </div>
-                <div class="column">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                </div>
-                <div class="column">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                    <img src="http://via.placeholder.com/325x265">
-                </div>
+            <div class="gallerySubContainer">
+                <div class="galleryImgLeft"></div>
+                <div class="galleryTextRight"></div>
+            </div>
+            <div class="gallerySubContainer">
+                <div class="galleryImgRight"></div>
+                <div class="galleryTextLeft"></div>
+            </div>
+            <div class="gallerySubContainer">
+                <div class="galleryImgLeft"></div>
+                <div class="galleryTextRight"></div>
             </div>
         </div>
     </div>
+</div>
 
 
 </body>
